@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="content-wrapper">
-        <div class="background-block background-block_theme_first">
+        <div class="background-block_theme_first">
             <header class="header">
                 <div class="menu header__menu">
-                    <div class="menu__menu-item">About</div>
+                    <div class="menu__menu-item menu__menu-item_active">About</div>
                     <div class="menu__menu-item">Syllabus</div>
-                    <div class="menu__menu-item">
+                    <div class="menu__menu-item menu__logo">
                         <img src="./assets/logo.png" alt="logo">
                     </div>
                     <div class="menu__menu-item">Projects</div>
@@ -80,6 +80,9 @@
             </div>
         </div>
         <div class="implement">
+            <div class="content-image">
+                <img src="./assets/content-image-2.png" alt="content-image-2">
+            </div>
             <div class="phrase-with-btn">
                 <h2 class="phrase-with-btn__h2">Implement right Code</h2>
                 <p class="phrase-with-btn__p">These might be considered part of the <strong>programming
@@ -87,28 +90,42 @@
                     the term programming, implementation</p>
                 <button class="default-button implement__default-button">Learn more</button>
             </div>
-            <div class="content-image">
-                <img src="./assets/content-image-2.png" alt="content-image-2">
+        </div>
+        <div class="background-block_theme_second">
+            <div class="subscribe">
+                <h2 class="subscribe__h2">Sign up for our newsletter</h2>
+                <div class="subscribe__form">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <button class="check-button">
+                        <img src="./assets/fa-check.png" alt="check">
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="subscribe background-block background-block_theme_second">
-            <h2 class="subscribe__h2">Sign up for our newsletter</h2>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <button class="check-button"></button>
-        </div>
         <div class="download">
-            <h2 class="download__h2">Download the app</h2>
-            <p class="download__p">Machine code was the language of early programs, written in the instruction set of
-                the particular machine, often in binary notation.</p>
-            <button class="default-button download__default-button">Apple store</button>
-            <button class="default-button download__default-button">Pley market</button>
+            <div class="download__content">
+                <h2 class="download__h2">Download the app</h2>
+                <p class="download__p">Machine code was the language of early programs, written in the instruction set
+                    of
+                    the particular machine, often in binary notation.</p>
+                <button class="default-button download__default-button apple-button"><span class="apple">Apple store</span>
+                    <div class="apple-button__logo">
+                        <img src="./assets/apple-icon.png" alt="apple">
+                    </div>
+                </button>
+                <button class="default-button download__default-button"><span> Play market</span>
+                    <div class="android-button__logo">
+                        <img src="./assets/android-icon.png" alt="android-icon">
+                    </div>
+                </button>
+            </div>
         </div>
         <footer class="footer">
             <div class="footer__menu">
                 <div class="footer__menu-item">Credits</div>
-                <div class="footer__menu-separator">|</div>
+                <div class="footer__menu-separator"></div>
                 <div class="footer__menu-item">Privacy</div>
-                <div class="footer__menu-separator">|</div>
+                <div class="footer__menu-separator"></div>
                 <div class="footer__menu-item">Our teams</div>
             </div>
             <div class="footer__logo">
