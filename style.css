@@ -478,3 +478,9 @@ body {
         overflow-x: scroll;
     }
 }
+@-moz-document url-prefix()
+{
+    .check-button {
+        bottom: 0;
+    }
+}
